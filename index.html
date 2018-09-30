@@ -1,0 +1,31 @@
+<!DOCTYPE html>             <!-- Declare that this an HTML5 document. -->
+<html lang="en">            <!-- Declare the content language. -->
+<head>
+    <meta charset="utf-8">  <!-- Declare the document's character set. -->
+    <title>Connect 4</title>   <!-- Set the page title.  Will be displayed at the top of the browser window and in bookmarks.  -->
+    <link rel="stylesheet" href="index.css">    <!-- Include styles from index.css. -->
+</head>
+
+  <body>
+    Hello World!
+    <br>
+    <!--  Message Label frequently updated -->
+    <div id = "message1">Message Board...</div>
+    <br>
+
+    <!--  Example input box with button below.  Hard-coded label -->
+    Columns: <input type="text" id="columnsInputBox" value="7"><br>
+    Rows: <input type="text" id="rowsInputBox" value="6"><br>
+    Number in a row to win: <input type="text" id="numInARowInputBox" value="4"><br>
+
+    <button id="startGameButton">Start Game</button><br><br>
+    <br>
+    <!-- Create the single board, no squares though, we'll do that in the code -->
+    <div id="board"></div>
+
+    <aside>
+    </aside>
+    <script src="index.js"></script>    <!-- Include index.js as a JavaScript script file. -->
+  </body>
+
+</html>

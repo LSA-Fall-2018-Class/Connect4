@@ -1,0 +1,46 @@
+body {
+    background-color: 		white;
+}
+
+#board
+{
+    display: flex;
+    /* width: 800px;
+    height: 800px; */
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    visibility: visible;
+    background-color: 	gray
+}
+
+/* Use the . because square is a class */
+  .square {
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+    main {
+        float:            left;
+        margin-right:     30px;
+        width:            520px;
+    }
+
+    aside {
+        background-color: 		red;
+
+        float:            right;
+        width:            460px;
+    }
+
+    aside section {
+        background-color: green;   // #ded29e
+        margin:           1em 0px;
+        padding:          0 0.5em;
+    }
